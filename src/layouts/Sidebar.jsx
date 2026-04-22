@@ -34,7 +34,7 @@ export default function Sidebar() {
                   {item.label.charAt(0)}
                 </span>
 
-                <span className="pointer-events-none absolute right-[120%] top-1/2 -translate-y-1/2 whitespace-nowrap rounded-[0.4rem] border border-white/[0.1] bg-[#111111] px-[0.764rem] py-[0.382rem] font-geist text-[0.64rem] uppercase tracking-[0.16em] text-white/[0.78] opacity-0 shadow-[0_10px_30px_rgba(0,0,0,0.3)] transition-all duration-300 group-hover:right-[135%] group-hover:opacity-100">
+                <span className="pointer-events-none absolute right-[120%] top-1/2 -translate-y-1/2 whitespace-nowrap rounded-[0.4rem] border border-white/[0.1] bg-[#111111] px-[0.764rem] py-[0.382rem] font-geist text-[0.64rem] uppercase tracking-[0.16em] text-white/[0.78] opacity-0 transition-all duration-300 group-hover:right-[135%] group-hover:opacity-100">
                   {item.label}
                 </span>
               </button>
@@ -44,7 +44,7 @@ export default function Sidebar() {
       </aside>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="fixed bottom-[1rem] left-1/2 z-50 flex w-[calc(100%-1.618rem)] max-w-[28rem] -translate-x-1/2 items-center justify-between rounded-[0.75rem] border border-white/[0.12] bg-[#0D0D0D]/80 px-[0.5rem] py-[0.5rem] shadow-[0_0_40px_rgba(0,0,0,0.35)] backdrop-blur-[20px] lg:hidden">
+      <nav className="fixed bottom-[1rem] left-1/2 z-50 flex w-[calc(100%-1.618rem)] max-w-[28rem] -translate-x-1/2 items-center justify-between rounded-[0.75rem] border border-white/[0.12] bg-[#0D0D0D]/80 px-[0.5rem] py-[0.5rem] backdrop-blur-[20px] lg:hidden">
         {LINKS.map((item) => (
           <button
             key={item.id}
