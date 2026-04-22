@@ -3,7 +3,8 @@ import Lenis from "lenis";
 
 import Sidebar from "./layouts/Sidebar";
 
-const HeroSection = lazy(() => import("./sections/Hero"));
+import HeroSection from "./sections/Hero";
+
 const AboutSection = lazy(() => import("./sections/About"));
 const SkillsSection = lazy(() => import("./sections/Skills"));
 const ProjectsSection = lazy(() => import("./sections/Projects"));

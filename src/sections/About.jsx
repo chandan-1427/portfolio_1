@@ -30,7 +30,7 @@ const EXPERIENCE_ITEMS = [
 ];
 
 const ABOUT_PARAGRAPHS = [
-  "I'm Dakka Chandan, a full-stack developer turned AI engineer from Kadapa, Andhra Pradesh, India. I design and build agents and web applications that are understandable, maintainable, and focused on solving real problems rather than chasing hype.",
+  "I'm Dakka Chandan, a full-stack developer turned into AI engineer from Kadapa, Andhra Pradesh, India. I design and build agents and web applications that are understandable, maintainable, and focused on solving real problems rather than chasing hype.",
   "I like to deeply understand a problem before writing a single line of code. For me, good engineering means breaking complex systems into clear, achievable pieces and solving them step by step. I care more about reliability, observability, and maintainability than fast shipping at the cost of quality.",
   "I enjoy learning new technologies because they often unlock better architectures and cleaner developer experiences. Exploring new tools, frameworks, and workflows is part of my daily routine, and I'm comfortable adapting quickly when a project demands it.",
   "I strongly believe great products are built by teams, not heroes. Clear communication, honest feedback, and close collaboration across engineering, design, and product are, in my experience, the fastest way to build something meaningful.",
