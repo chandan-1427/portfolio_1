@@ -54,7 +54,7 @@ export default function AboutSection() {
             About
           </p>
 
-          <h2 className="font-work text-[1.418rem] font- leading-[1] text-white/[0.918] md:text-[2.218rem] lg:text-[3.236rem]">
+          <h2 className="font-work text-[1.418rem] leading-[1] text-white/[0.918] md:text-[2.218rem] lg:text-[3.236rem]">
             Building practical AI agents and full-stack systems that are
             reliable, scalable, and grounded in real-world problems.
           </h2>
