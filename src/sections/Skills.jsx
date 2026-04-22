@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 const SKILL_GROUPS = [
   {
     title: "Frontend",
@@ -70,9 +68,7 @@ const SKILL_GROUPS = [
   },
 ];
 
-export default function SkillsSection() {
-  const [activeIndex, setActiveIndex] = useState(0);
-  
+export default function SkillsSection() {  
   return (
     <section id="skills" className="relative px-[1.618rem] py-[6.854rem] text-white md:px-[2.618rem] lg:px-[4.236rem]">
       <div className="mx-auto flex max-w-[68.54rem] flex-col gap-[2.618rem]">
