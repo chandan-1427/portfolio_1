@@ -5,6 +5,7 @@ A clean and minimal portfolio website built with React and Vite.
 #### Description
 
 This is my portfolio website showcasing my work as a Full Stack Developer & AI Engineer. The site features a minimal design with smooth scrolling, responsive layout, and clean typography.
+
 View in your browser - [portfolio-1-two-lovat.vercel.app](https://portfolio-1-two-lovat.vercel.app/)
 
 #### Why I Built This
