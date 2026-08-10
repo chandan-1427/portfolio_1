@@ -28,7 +28,7 @@ export default function TagList({ tags, className = "" }) {
       {tags.map((tag) => (
         <motion.span
           key={tag}
-          className="rounded-[14px] border-2 border-white/[0.16] bg-white/2 px-3 py-1.5 text-[13px] tracking-wide text-white/80 cursor-default"
+          className="rounded-[14px] border-2 border-white/[0.16] bg-white/2 px-3 py-1.5 text-[13px] tracking-wide text-white/90 cursor-default"
           variants={tagVariants}
           whileHover={shouldReduceMotion ? undefined : { scale: 1.05, transition: hoverTransition }}
           whileTap={shouldReduceMotion ? undefined : { scale: 0.95, transition: tapTransition }}

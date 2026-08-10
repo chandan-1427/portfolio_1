@@ -3,13 +3,14 @@
 @import "@fontsource/inter/400.css";
 @import "@fontsource/inter/500.css";
 @import "@fontsource/stalemate";
+@import '@fontsource-variable/fraunces/wght.css';
 
 @import "tailwindcss";
 
 @theme {
-  --font-geist:     "Geist Variable", sans-serif;
   --font-inter:     "Inter", sans-serif;
   --font-stalemate: "Stalemate", sans-serif;
+  --font-france: 'Fraunces Variable', serif;
 }
 
 @layer base {
@@ -50,10 +51,6 @@
     font-family: var(--font-inter);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
-
-  h1 {
-    font-family: var(--font-geist);
   }
 
   ::selection {

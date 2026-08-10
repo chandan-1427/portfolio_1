@@ -26,7 +26,7 @@ export default function Description({ desc, className = "" }) {
   return (
     <div ref={ref}>
       <motion.p
-        className={cn("text-[15px] leading-relaxed text-white/85", className)}
+        className={cn("text-[15.5px] leading-relaxed text-white/90", className)}
         initial={false}
         animate={shouldReduceMotion ? undefined : { opacity: visible ? 1 : 0, y: visible ? 0 : 16 }}
         transition={{ duration: 0.4, ease: "easeOut" }}

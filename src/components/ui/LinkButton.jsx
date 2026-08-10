@@ -4,8 +4,8 @@ import { cn } from "@/lib/cn";
 
 export default function LinkButton({ href, variant = "code", children, className = "" }) {
   const variantClasses = {
-    code: "bg-white/80 text-black border-black/75 hover:bg-white/[0.12] hover:text-white hover:border-white/[0.16] active:bg-white/[0.06] active:shadow-none",
-    live: "bg-black/80 text-data border-white/15 hover:bg-white/[0.07] hover:text-neon hover:border-black/30 active:bg-white/[0.03] active:shadow-none",
+    code: "bg-white text-black border-black/75 hover:bg-white/[0.12] hover:text-white hover:border-white/[0.16] active:bg-white/[0.06] active:shadow-none",
+    live: "bg-black/80 text-white border-white/15 hover:bg-white/[0.07] hover:text-neon hover:border-black/30 active:bg-white/[0.03] active:shadow-none",
   };
 
   const shouldReduceMotion = useReducedMotion();

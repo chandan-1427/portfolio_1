@@ -13,3 +13,7 @@ dist
 # Local environment overrides
 *.local
 .vscode/*
+
+skills-lock.json
+
+.claude/

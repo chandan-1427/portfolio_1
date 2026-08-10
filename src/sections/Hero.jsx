@@ -25,7 +25,7 @@ export default function HeroSection({ ready = true }) {
 
   return (
     <section id="hero" className="relative min-h-screen overflow-hidden">
-      <div className="flex min-h-screen items-center justify-center bg-green-900 m-3 rounded-[24px] px-4 sm:m-6 sm:rounded-[32px] sm:px-6 md:m-10 md:rounded-[50px]">
+      <div className="flex min-h-screen items-center justify-center bg-green-800 m-3 rounded-[24px] px-4 sm:m-6 sm:rounded-[32px] sm:px-6 md:rounded-[20px]">
         <motion.div
           className="flex flex-col items-center text-center"
           initial={shouldReduceMotion ? undefined : "hidden"}
@@ -44,7 +44,7 @@ export default function HeroSection({ ready = true }) {
               <motion.span
                 key={`${letter}-${index}`}
                 aria-hidden="true"
-                className="inline-block text-[36px] font-thin tracking-[0.08em] text-white sm:text-[50px] sm:tracking-[0.12em] md:text-[90px] lg:text-[110px]"
+                className="inline-block text-[36px] font-france font-extralight tracking-[0.08em] text-white sm:text-[50px] sm:tracking-[0.12em] md:text-[90px] lg:text-[110px]"
                 variants={{
                   hidden: { opacity: 0, y: index % 2 === 0 ? -24 : 24 },
                   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
@@ -66,7 +66,7 @@ export default function HeroSection({ ready = true }) {
             href="/chandan.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="group relative mt-8 flex w-fit shrink-0 items-center gap-1.5 rounded-md border border-white/[0.08] bg-white/[0.04] px-3 py-1.5 text-xs tracking-wide text-white/90 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_4px_8px_-2px_rgba(0,0,0,0.2)] transition-colors duration-200 hover:border-white/[0.12] hover:bg-white/[0.07] hover:text-white/70 active:bg-white/[0.03] active:shadow-none sm:mt-10"
+            className="group relative mt-8 flex w-fit shrink-0 items-center gap-1.5 rounded-md border border-white/[0.08] bg-white/[0.04] px-3 py-1.5 text-xs tracking-wide text-white/90 shadow-[inset_0_1px_0_0_rgba(255,255,255,0.06),0_4px_8px_-2px_rgba(0,0,0,0.2)] transition-colors duration-200 hover:border-white/[0.12] hover:bg-white/[0.07] hover:text-white/80 active:bg-white/[0.03] active:shadow-none sm:mt-10"
             variants={fadeUp}
             whileTap={
               shouldReduceMotion

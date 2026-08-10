@@ -24,7 +24,7 @@ This project is a small example of choosing clarity, simplicity, and readability
 - Lenis (smooth scrolling)
 - React Icons
 - Tailwind Merge
-- Geist, Inter, and Stalemate fonts
+- Inter, Fraunces Variable and Stalemate fonts
 
 #### Features
 

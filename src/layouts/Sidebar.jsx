@@ -34,7 +34,7 @@ function NavButton({ item, variant, onClick }) {
         whileTap={whileTap}
         {...hoverProps}
       >
-        <span className="text-[0.72rem] uppercase tracking-widest text-white/80 transition-colors duration-200 group-hover:text-white/90">
+        <span className="text-[0.72rem] uppercase tracking-widest text-white transition-colors duration-200 group-hover:text-white/90">
           {item.label.charAt(0)}
         </span>
         <Tooltip label={item.label} position="left" visible={showTooltip} />

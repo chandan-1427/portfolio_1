@@ -14,7 +14,7 @@ function ExperienceCard({ title, value, description, link, domain }) {
       <MetaDataRow title={title} value={value} />
       <Description desc={description} />
 
-      <div className="mt-auto flex justify-end border-t border-white/[0.08] pt-[0.8rem]">
+      <div className="mt-auto flex justify-end border-t border-white/30 pt-[0.8rem]">
         <LinkButton href={link}>
           <span>{domain}</span>
           <IoIosArrowForward />
@@ -41,12 +41,12 @@ export default function AboutSection() {
 
           </div>
 
-          <div className="space-y-[1.618rem] bg-pink-900 py-5 px-5 rounded-[25px]">
+          <div className="space-y-[1.618rem]">
             {ABOUT_PARAGRAPHS.map((paragraph) => (
               <Description
                 key={paragraph.slice(0, 24)}
                 desc={paragraph}
-                className="text-[1.06rem] leading-[1.618] text-white"
+                className="text-[1.06rem] leading-[1.618] text-white/90"
               />
             ))}
           </div>
