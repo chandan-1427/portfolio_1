@@ -56,7 +56,7 @@ export default function HeroSection({ ready = true }) {
           </h1>
 
           <motion.p
-            className="mt-5 uppercase max-w-[90%] text-sm font-light tracking-[0.10em] text-white sm:mt-6 md:max-w-2xl md:text-[16px]"
+            className="mt-5 whitespace-nowrap uppercase text-[11px] font-light tracking-[0.06em] text-white sm:mt-6 sm:text-sm sm:tracking-[0.10em] md:text-[16px]"
             variants={fadeUp}
           >
             {TAGLINE}
