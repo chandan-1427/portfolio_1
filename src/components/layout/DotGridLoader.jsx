@@ -30,7 +30,12 @@ export default function DotGridLoader({ visible }) {
               <motion.span
                 key={i}
                 className="block h-1 w-1 rounded-full will-change-transform"
-                style={{ backgroundColor: "rgba(255, 255, 255, 0.918)" }}
+                style={{
+                  backgroundColor: "rgba(255, 255, 255, 0.918)",
+                  opacity: shouldReduceMotion ? 1 : 0.2,
+                  transform: shouldReduceMotion ? "scale(1)" : "scale(0.35)",
+                }}
+                initial={shouldReduceMotion ? { scale: 1, opacity: 1 } : { scale: 0.35, opacity: 0.2 }}
                 animate={
                   shouldReduceMotion
                     ? { scale: 1, opacity: 1 }

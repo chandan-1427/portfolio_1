@@ -47,7 +47,7 @@ export default function App() {
     ]);
 
     // Minimum duration so the loader is visible for at least 1 second
-    const minDelay = new Promise((resolve) => setTimeout(resolve, 3000));
+    const minDelay = new Promise((resolve) => setTimeout(resolve, 2500));
 
     Promise.all([fontsReady, contentReady, minDelay]).then(() => setReady(true));
   }, []);
